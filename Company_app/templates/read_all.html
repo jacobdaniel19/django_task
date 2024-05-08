@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% for i in data%}
+    {{ i.category_name}}
+    <br>
+    {% endfor %}
+    {% for j in data1 %}
+    <br>
+    {{ j.employee_name }}
+    {{ j.employee_place }}
+    {{ j.employee_mobile_number }}
+    {{ j.employee_category }}
+    <br>
+    {% endfor %}
+</body>
+</html>
